@@ -1,8 +1,8 @@
 {
-    "name": "autogen-swagger",
+    "name": "limp-stride",
     "version": "0.0.1",
     "description": "Automatically generate tests from Swagger API JSON",
-    "main": "test-framework.js",
+    "main": "test-runner.js",
     "dependencies": {
         "bluebird": "^3.5.1",
         "chai": "4.1.2",
@@ -15,5 +15,5 @@
         "test": "echo \"No test specified\" && exit 1"
     },
     "author": "Greg Frazier",
-    "license": "Apache 2.0"
+    "license": "MIT"
 }
