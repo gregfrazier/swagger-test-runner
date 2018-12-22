@@ -1,0 +1,58 @@
+body {
+    font-size: 0.9em;
+    font-family: 'Segae UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.passed {
+background-color: #c1e0c9;
+}
+
+.failed {
+background-color: #f08585;
+}
+
+.result span {
+    padding: 3px;
+}
+
+.result {
+    padding: 5px;
+}
+
+.result .passfail {
+    font-style: italic;
+}
+
+div.failed:focus + div.extra-results {
+    display: block;
+    padding: 5px;
+    font-size: 0.8em;
+    background-color: #ecc0c0;
+}
+
+div.passed:focus + div.no-results {
+    display: block;
+    padding: 5px;
+    font-size: 0.8em;
+    background-color: #ebf3df;
+}
+
+.extra-results {
+display: none;
+
+}
+
+.no-results {
+display: none;
+
+}
+
+.spec-header {
+    background-color: #ebcaa4;
+    padding: 5px;
+
+}
+
+.spec-results {
+    background-color: #ffe8ce;
+    padding: 5px;
+}

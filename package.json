@@ -1,0 +1,19 @@
+{
+    "name": "autogen-swagger",
+    "version": "0.0.1",
+    "description": "Automatically generate tests from Swagger API JSON",
+    "main": "test-framework.js",
+    "dependencies": {
+        "bluebird": "^3.5.1",
+        "chai": "4.1.2",
+        "http": "0.0.0",
+        "js-beautify": "^1.8.8",
+        "request": "^2.83.0",
+        "serialize-to-js": "1.2.1"
+    },
+    "scripts": {
+        "test": "echo \"No test specified\" && exit 1"
+    },
+    "author": "Greg Frazier",
+    "license": "Apache 2.0"
+}
